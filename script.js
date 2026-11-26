@@ -9,12 +9,6 @@ menuButton.addEventListener("click", function() {
 
 const contactForm = document.querySelector(".contact-form");
 
-contactForm.addEventListener("submit", function(event) {
-
-    event.preventDefault();
-
-    alert("Thank you! Your message has been received.");
-
-    contactForm.reset();
-
+contactForm.addEventListener("submit", function() {
+    alert("Thank you! Your message is being sent.");
 });
